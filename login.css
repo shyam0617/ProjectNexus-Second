@@ -1,0 +1,73 @@
+
+.body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(178, 57, 57, 0.4),rgba(192, 50, 50, 0.4)),url('./img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+h2,h6{
+    text-align:center;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.section{
+    height:50%;
+    width:50%;
+    background: rgba(220, 220, 220, 0.814);
+    border:2px solid rgba(231, 87, 87, 0.599);
+
+}
+.form input{
+    display:block;
+    width:300px;
+    height:20px;
+    margin: 5px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow for input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 5px; /* Border radius for input */
+    box-sizing: border-box;
+}
+.form-inputs{
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+}
+
+.other{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.form button {
+    margin-top: 5px; /* Add margin to separate button from inputs */
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form button:hover {
+    background-color: #0056b3;
+}
+
